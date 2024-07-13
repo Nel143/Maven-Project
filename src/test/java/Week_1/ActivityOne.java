@@ -8,17 +8,27 @@ public class ActivityOne {
 
         ChromeDriver driver = new ChromeDriver();
 
+        // Navigate to "https://mail.google.com/mail/u/0/#inbox?projector=1"
+
         driver.get( "https://mail.google.com/mail/u/0/#inbox?projector=1" );
 
+        // Close browser.
         driver.quit();
 
-        driver.manage().window().maximize();
+        // Maximize window.
 
         driver.manage().window().maximize();
+
+        // Minimize window.
+
+        driver.manage().window().minimize();
+
+        // Print title.
 
         String title = driver.getTitle();
 
-        System.out.println(title);
+
+        // Push changes to respiratory.
 
 
         
