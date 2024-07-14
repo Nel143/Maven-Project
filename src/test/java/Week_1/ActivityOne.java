@@ -1,12 +1,13 @@
 package Week_1;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ActivityOne {
 
     public static void main(String[] args){
 
-        ChromeDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
 
         // Navigate to "https://mail.google.com/mail/u/0/#inbox?projector=1"
 
